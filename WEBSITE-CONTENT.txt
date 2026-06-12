@@ -1,0 +1,560 @@
+================================================================================
+CUSTOM SHIPPING RULES — WEBSITE CONTENT
+BigCommerce + UPS weight-based shipping quote builder, by Codinative
+================================================================================
+
+Purpose of this file:
+  All copy used across the Custom Shipping Rules marketing site and documentation,
+  in one place, so it can be re-used on the main Codinative website.
+
+Live site:        https://custom-shipping-rules.codinative.com/
+The app:          https://shipping.codinative.com/
+Vendor:           Codinative (Certified BigCommerce Partner) — https://codinative.com/
+Support email:    info@codinative.com
+
+Coverage note (use wherever relevant):
+  This app currently quotes UPS UAE Domestic rates only. Shoppers with a delivery
+  address outside the United Arab Emirates won't see these options at checkout.
+  More carriers and destinations are planned.
+
+Trademark note (for whoever places UPS / BigCommerce logos):
+  "UPS" and the UPS shield are trademarks of United Parcel Service. "BigCommerce"
+  is a trademark of BigCommerce Pty. Ltd. They are shown only to indicate the
+  platform/carrier this app integrates with (nominative use). The app is not
+  affiliated with, endorsed by, or sponsored by either company.
+
+
+================================================================================
+1. ONE-LINERS / TAGLINES
+================================================================================
+
+Product name:   Custom Shipping Rules
+Tagline:        UPS weight-based shipping quotes, built for BigCommerce.
+
+Short summary (for listings / meta description, ~95 chars):
+  Automatically quote real UPS UAE domestic shipping rates at checkout, priced by
+  package weight in AED.
+
+Alternates:
+  - Show shoppers accurate UPS UAE delivery rates at checkout — calculated by
+    weight, in AED, with same-day and midday options.
+  - Weight-based UPS domestic shipping rates for UAE stores, live at checkout —
+    no manual rate tables.
+
+
+================================================================================
+2. HERO (landing page)
+================================================================================
+
+Eyebrow:   BigCommerce Shipping App
+Heading:   UPS weight-based shipping quotes, built for BigCommerce.
+Subtext:   Custom Shipping Rules turns your UPS UAE Domestic contract rates into
+           accurate, weight-based quotes at checkout — two delivery speeds, priced
+           in AED, live in minutes.
+
+Buttons:   [ Get it on BigCommerce ]   [ Read the docs ]
+
+Trust ticks:
+  - Native shipping provider
+  - Real UPS contract rates
+  - No code required
+
+
+================================================================================
+3. INTEGRATES WITH (logo band)
+================================================================================
+
+Label:     Integrates with
+Logos:     BigCommerce  +  UPS
+Subtext:   Custom Shipping Rules installs as a native BigCommerce shipping provider
+           and quotes your real UPS UAE Domestic contract rates live at checkout.
+
+
+================================================================================
+4. FEATURES — "Why merchants use it"
+================================================================================
+
+Section heading:  Accurate shipping, on autopilot.
+Section subtext:  Stop maintaining rate tables by hand and stop guessing on flat
+                  fees. Every quote is calculated from the real weight of the cart.
+
+1. Weight-based accuracy
+   Every quote is calculated from the cart's chargeable weight — the greater of
+   actual and dimensional weight — exactly how UPS bills you. No flat fees that
+   over- or under-charge.
+
+2. Two UPS delivery tiers
+   Shoppers choose between Delivery by Close of Business and priority Delivery by
+   Midday, each priced independently for the parcel.
+
+3. Flexible pricing
+   Apply a simple percentage markup on the UPS base rate, or layer a fuel surcharge
+   and UAE VAT. Set it once — every quote follows.
+
+4. Always in AED
+   Rates are quoted in UAE dirhams, matched to your store currency. Shoppers see a
+   clean final price with no surcharge breakdown.
+
+5. Live at checkout
+   A native BigCommerce Shipping Provider. When a shopper reaches the shipping step,
+   the app returns rates in real time.
+
+6. Minutes to set up
+   Connect the carrier to your UAE zone, review the rate table, flip the master
+   switch on. A built-in preview shows exactly what shoppers will see.
+
+
+================================================================================
+5. HOW IT WORKS — "The quote flow"
+================================================================================
+
+Section heading:  From cart to checkout in real time.
+Section subtext:  A native BigCommerce + UPS quote builder. Here's what happens the
+                  moment a shopper reaches the shipping step.
+
+Step 1 — Shopper checks out
+   A customer reaches the shipping step with a UAE delivery address.
+
+Step 2 — BigCommerce posts the cart
+   BigCommerce sends the cart's items, weights and destination to the app's quote
+   endpoint.
+
+Step 3 — Rates are calculated
+   The app reads the chargeable weight, looks up your UPS rate table, and applies
+   your pricing.
+
+Step 4 — Two AED options return
+   Close of Business and Midday appear at checkout, priced in dirhams, ready to
+   select.
+
+
+================================================================================
+6. DELIVERY TIERS — "Shown at checkout"
+================================================================================
+
+Section heading:  Two delivery speeds, one clear choice.
+Section subtext:  Both options are quoted from the same parcel weight and presented
+                  to the shopper in AED.
+
+Close of Business        [chip: Everyday]
+   UPS Domestic Express Saver
+   The dependable everyday option — same-day delivery by close of business for
+   orders placed before the daily cut-off.
+   Delivered by ~6:00 PM
+
+Midday                   [chip: Priority]
+   UPS Domestic Express
+   Priority delivery guaranteed by 12:00 PM — for urgent shipments that need to
+   arrive first thing.
+   Delivered by 12:00 PM
+
+
+================================================================================
+7. PRICING STRATEGIES
+================================================================================
+
+Section heading:  Price every rate, your way.
+Section subtext:  The UPS base rates are fixed and accurate. You decide how they
+                  become the price a shopper pays — set it once on the Configure
+                  screen and every quote follows.
+
+Bullet points:
+  - Transparent to you, clean for shoppers. You see the formula; shoppers see only
+    the final AED amount.
+  - Instant preview. The rate table and shipment tester update the moment you save.
+
+Strategy A — UPS rate + markup  [Default]
+   Add a single flat percentage on top of the UPS rate. Simple and predictable.
+   Formula:  base × (1 + markup%)   — e.g. 100 → 150
+
+Strategy B — UPS rate + fuel surcharge + VAT
+   Layer a fuel surcharge and UAE VAT onto the base, calculated in sequence.
+   Formula:  base × (1 + fuel%) × (1 + VAT%)
+
+
+================================================================================
+8. FULL APP DESCRIPTION (for marketplace / about page)
+================================================================================
+
+Custom Shipping Rules puts real UPS United Arab Emirates domestic delivery rates
+directly into your BigCommerce checkout. Every quote is calculated automatically
+from the order's weight, priced in AED, and shown to shoppers as two clear delivery
+options.
+
+The moment a customer reaches the shipping step, the app reads the cart's total
+weight, applies your UPS contract rate table, and returns two live options:
+
+  - Delivery by Close of Business — the dependable everyday service
+    (UPS Domestic Express Saver).
+  - Delivery by Midday — priority delivery for urgent orders
+    (UPS Domestic Express).
+
+Why merchants use it
+
+  - Accurate rates, automatically. No more flat fees that overcharge small orders
+    or lose money on heavy ones. Every quote uses the cart's real chargeable weight
+    — the greater of actual and dimensional weight — exactly how UPS bills you.
+  - Priced your way. Add a simple percentage markup on the UPS base rate, or apply
+    a fuel surcharge and VAT. Set it once, and every quote follows your strategy.
+  - Two speeds at checkout. Give shoppers a clear choice between standard
+    close-of-business and priority midday delivery, each with its own price.
+  - Live in minutes. Connect the carrier to your UAE shipping zone, review the rate
+    table, and flip the master switch on. A built-in checkout preview shows exactly
+    what shoppers will see before you launch.
+  - Always in AED. Rates are quoted in UAE dirhams, matched to your store currency
+    — shoppers see a clean final price with no surcharge breakdown.
+
+What it solves
+
+Maintaining shipping rate tables by hand is slow, error-prone, and quickly outdated.
+Flat-rate shipping either eats your margin or drives customers away with inflated
+costs. Custom Shipping Rules replaces both with live, weight-accurate UPS pricing
+that recalculates on every order — so your shipping charges stay fair, profitable,
+and transparent.
+
+Coverage: This app quotes UPS UAE domestic rates only. Shoppers with a delivery
+address outside the United Arab Emirates won't see these options at checkout. More
+carriers and destinations are planned.
+
+Built and maintained by Codinative, a certified BigCommerce partner.
+
+
+================================================================================
+9. INSTALLATION GUIDE
+================================================================================
+
+Title:     Installation guide
+Intro:     Everything you need to install Custom Shipping Rules and go live with UPS
+           rates at your BigCommerce checkout.
+
+Scope:     This app quotes UPS UAE Domestic rates only. It's the right fit if you
+           ship domestically within the United Arab Emirates with UPS.
+
+--- Before you install ---
+
+  - A BigCommerce store. Any plan. Install from the App Marketplace or your control
+    panel under Apps → My Apps.
+  - A United Arab Emirates shipping zone. These are UPS UAE Domestic rates, so
+    checkout must have a shipping zone that covers the UAE for the options to appear.
+  - Product weights set. Rates are calculated from weight, so your products need
+    weights. Add dimensions too if you want dimensional-weight pricing on light,
+    bulky items.
+
+--- Permissions ---
+
+On install the app requests only two OAuth scopes — nothing related to orders,
+customers, or payments:
+
+  - Fulfillment Methods — to connect the carrier and add its UPS options inside your
+    shipping zones.
+  - Information and Settings — to read your store's weight/dimension units and
+    default currency, so rates convert and price correctly.
+
+The app never reads or writes orders, customers, products, or payment data.
+
+--- Installation steps ---
+
+  1. Install the app. Add Custom Shipping Rules from the BigCommerce App Marketplace,
+     or from Apps → My Apps. New installs start switched off, so nothing changes at
+     checkout until you turn it on.
+  2. Grant the requested permissions. BigCommerce shows the two permissions the app
+     needs and asks you to confirm. Approve them to finish — you're returned to the
+     app dashboard.
+  3. Connect the carrier. On the Home tab, click "Connect carrier". This attaches the
+     UPS options to your shipping zone(s) so they can be quoted at checkout. The
+     setup checklist ticks green on success.
+  4. Review rates & pricing. Open Configure. Pick a pricing strategy (a flat markup
+     %, or fuel surcharge + VAT), browse the AED rate table, and press Test rates on
+     a sample shipment to confirm the numbers.
+  5. Turn on shipping. Flip the master switch on Home. The status badge turns green
+     once the carrier is connected and the service is on.
+  6. Verify at checkout. Add a product and check out to a UAE address. You should see
+     two options — Close of Business and Midday — priced in AED.
+
+--- Troubleshooting ---
+
+Checkout shows only "Ship by weight"
+   The carrier isn't attached to the zone yet. On Home, use Re-sync carrier, and make
+   sure your UAE shipping zone has the UPS method enabled.
+
+No rates appear for a non-UAE address
+   This is expected — the app quotes UPS UAE Domestic rates only and returns nothing
+   for other destinations.
+
+Rates look wrong
+   Check your product weights/dimensions and your pricing strategy on Configure. The
+   charged rate uses the greater of actual vs dimensional weight, priced by your
+   chosen strategy.
+
+Still stuck? Email info@codinative.com — we reply within one business day.
+
+
+================================================================================
+10. USER GUIDE
+================================================================================
+
+Title:  User guide
+Intro:  How to configure, price, test and manage Custom Shipping Rules day to day.
+
+--- The Home dashboard ---
+
+Home is your activation centre. At a glance it tells you whether shipping is live,
+needs action, or is off:
+
+  - Status hero — green means shoppers are seeing your UPS options; amber means the
+    service is on but the carrier isn't connected yet; grey/red means shipping is off.
+  - Setup checklist — three steps (connect carrier → review rates → turn on) with a
+    progress bar.
+  - At a glance — your carrier, quote currency, active pricing strategy, and checkout
+    status.
+  - Preview at checkout — opens a mock of exactly what a shopper sees, using your live
+    rates.
+
+--- Connecting the carrier ---
+
+"Connect carrier" attaches the UPS shipping options to your store's shipping zone(s)
+so they can appear at checkout. Run it once after installing.
+
+If the options ever stop showing, use Re-sync carrier (the same button). It refreshes
+the connection and updates the checkout method name without a reinstall. The checklist
+shows how many zones the carrier is attached to.
+
+--- Pricing strategies ---
+
+On Configure you choose how the UPS base rate becomes the price a shopper pays. Pick
+one:
+
+  - UPS rate + markup — adds a single flat percentage on top of the UPS rate.
+    Example: a 50% markup turns an AED 100 base into AED 150.
+  - UPS rate + fuel surcharge + VAT — layers a fuel surcharge and UAE VAT onto the
+    base in sequence:  base × (1 + fuel%) × (1 + VAT%)
+
+Set your percentages, press Save pricing, and the rate table and tester immediately
+reflect the change. Shoppers only ever see the final price — never the markup, fuel,
+or VAT breakdown.
+
+--- The rate table ---
+
+The table on Configure shows every weight bracket and its price for each delivery
+tier, after your pricing is applied:
+
+  - Weight is normalised to kilograms.
+  - Any fraction over a listed weight rounds up to the next bracket.
+  - Over 70 kg is billed at the per-kilogram over-size rate (with a minimum), shown
+    automatically.
+
+--- Testing a shipment ---
+
+The "Test a shipment" tool shows the exact rates a shopper would see for a given
+parcel. Enter an actual weight and the dimensions, then press Test rates.
+
+The result makes the calculation transparent. It compares two numbers and marks which
+one was used:
+
+  - Actual weight — the parcel's real weight.
+  - Dimensional weight — L × W × H ÷ 5000, which accounts for light, bulky parcels.
+
+The chargeable weight is always the greater of the two — that's the one the price is
+based on. The two AED quotes below it are exactly what the shopper is charged.
+
+--- What shoppers see at checkout ---
+
+When a shopper enters a UAE delivery address, the shipping step shows two UPS options,
+priced in AED:
+
+  - UPS (Delivery by Close of Business) — the dependable everyday service
+    (UPS Domestic Express Saver).
+  - UPS (Delivery by Midday) — priority delivery for urgent orders
+    (UPS Domestic Express).
+
+Each option carries the delivery time and the chargeable weight on its sub-line. The
+shopper picks whichever speed they prefer.
+
+--- Turning shipping on / off ---
+
+The master switch on Home controls everything. When it's off, the app returns no
+quotes and shoppers don't see these options — useful for pausing without uninstalling.
+When it's on and the carrier is connected, rates go live immediately.
+
+--- Coverage & limitations ---
+
+This app quotes UPS UAE Domestic rates only. Shoppers with a delivery address outside
+the United Arab Emirates won't see these options. More carriers and destinations are
+planned.
+
+
+================================================================================
+11. FAQ
+================================================================================
+
+Q: Which carriers and destinations are supported?
+A: Currently UPS UAE Domestic only. Shoppers with a delivery address outside the
+   United Arab Emirates won't see these options at checkout. More carriers and
+   destinations are planned.
+
+Q: How is the shipping price calculated?
+A: From the cart's chargeable weight — the greater of actual weight and dimensional
+   weight (L×W×H ÷ 5000). The app finds the matching weight bracket in your UPS rate
+   table, then applies your chosen pricing strategy.
+
+Q: Can I control the final price shoppers pay?
+A: Yes. Choose a flat percentage markup on the UPS base rate, or layer a fuel
+   surcharge and UAE VAT. You set the percentages; shoppers only ever see the final
+   AED amount.
+
+Q: What does it cost to install?
+A: Install the app from the BigCommerce App Marketplace. New installs start switched
+   off, so nothing changes at checkout until you connect the carrier and turn it on.
+
+Q: What permissions does the app need?
+A: Only two: Fulfillment Methods (to connect the carrier and add its UPS options to
+   your shipping zones) and Information and Settings (to read your store's units and
+   currency). Nothing about orders, customers, or payments.
+
+Q: How do I verify it's working?
+A: Use the in-app checkout preview and the Test a shipment tool, then place a test
+   order to a UAE address. You should see the two UPS options priced in AED.
+
+
+================================================================================
+12. CALL TO ACTION
+================================================================================
+
+Heading:   Ready to quote real UPS rates at checkout?
+Subtext:   Install Custom Shipping Rules, connect your UAE zone, and go live in
+           minutes — with accurate, weight-based pricing your margins will thank you
+           for.
+Buttons:   [ Get it on BigCommerce ]   [ Installation guide ]
+
+
+================================================================================
+13. PRIVACY POLICY
+================================================================================
+
+Title:  Privacy Policy
+Intro:  How Custom Shipping Rules handles data when installed on your BigCommerce
+        store. Last updated 11 June 2026.
+
+Custom Shipping Rules ("the App") is a BigCommerce app provided by Codinative ("we",
+"us"). The App calculates UPS weight-based domestic shipping rates for a store's
+checkout. This policy explains what data the App accesses, stores, and processes.
+
+Information we access
+   When a merchant installs the App via BigCommerce OAuth, we request only two
+   permissions — both needed to calculate and display shipping rates:
+     - Fulfillment Methods — shipping zones and carrier configuration, to connect the
+       carrier so its UPS options appear at checkout.
+     - Information and Settings — the store's weight/dimension units and default
+       currency, to convert and price rates correctly.
+   The App does not access orders, customers, products, or payment data.
+
+Information we store
+   We store the minimum required to operate the App, in Google Firebase (Firestore):
+     - Your store hash and the OAuth access token issued by BigCommerce at install.
+     - The store user(s) who installed or were granted access to the App (id, email,
+       username).
+     - Your per-store app settings (pricing strategy, percentages, dimensional
+       divisor, on/off state).
+
+Checkout data
+   At checkout, BigCommerce sends the App a quote request containing the cart's line
+   items (weights and dimensions), the destination country, and the currency, so we
+   can return rates. We log non-identifying request metadata (weights, currency,
+   timestamps, user-agent) for diagnostics only. We do not store shopper names,
+   addresses, emails, or payment information.
+
+Third-party processors
+     - BigCommerce — the platform the App integrates with.
+     - Google Firebase / Firestore — stores the data described above.
+     - Vercel — hosts the App.
+   We do not sell or share your data with advertisers, and we do not use it for any
+   purpose other than operating the App.
+
+Data retention & deletion
+   When you uninstall the App, BigCommerce notifies our uninstall endpoint and we
+   remove your store record, access token, and associated user records. To request
+   deletion at any other time, email us at info@codinative.com.
+
+Security
+   All traffic uses HTTPS. Access tokens and credentials are stored server-side and
+   are never exposed to the browser or to shoppers.
+
+Contact
+   Questions about this policy? Email info@codinative.com or visit codinative.com.
+
+
+================================================================================
+14. TERMS OF SERVICE
+================================================================================
+
+Title:  Terms of Service
+Intro:  The terms for using Custom Shipping Rules. Last updated 11 June 2026.
+
+By installing or using Custom Shipping Rules ("the App"), provided by Codinative
+("we", "us"), you ("the merchant") agree to these terms.
+
+1. The service
+   The App is a custom BigCommerce shipping provider that calculates weight-based UPS
+   domestic shipping rates and presents them as two delivery options at checkout.
+   Rates are derived from the merchant's configured pricing strategy applied to a
+   fixed UPS domestic rate table.
+
+2. Merchant responsibilities
+     - Maintaining accurate product weights and dimensions, on which rates depend.
+     - Configuring the carrier on the correct shipping zone(s) and reviewing pricing
+       before going live.
+     - Verifying that displayed rates meet your commercial and legal requirements
+       before charging customers.
+
+3. Rate accuracy
+   Rates are estimates generated from the configured table and the merchant's pricing
+   settings. They are provided "as is". We are not responsible for discrepancies
+   between quoted rates and amounts later charged by a carrier, nor for losses arising
+   from misconfiguration.
+
+4. Trademarks
+   "UPS" and related marks are the property of their respective owners. The App is not
+   affiliated with, endorsed by, or sponsored by United Parcel Service. References to
+   UPS describe the carrier rate set the merchant has chosen to offer.
+
+5. Availability & changes
+   We aim for high availability but do not guarantee uninterrupted service. We may
+   update the App and these terms; continued use after a change constitutes acceptance.
+
+6. Limitation of liability
+   To the maximum extent permitted by law, Codinative is not liable for any indirect,
+   incidental, or consequential damages arising from use of the App. Our total
+   liability is limited to the fees (if any) paid for the App in the preceding three
+   months.
+
+7. Termination
+   You may stop using the App at any time by uninstalling it from your BigCommerce
+   control panel, which removes the carrier's options from checkout and deletes your
+   stored data (see the Privacy Policy).
+
+8. Contact
+   Questions about these terms? Email info@codinative.com.
+
+
+================================================================================
+15. FOOTER
+================================================================================
+
+Tagline:        UPS weight-based shipping quotes for BigCommerce stores shipping UAE
+                domestic — accurate, automatic, and priced in AED.
+
+Columns:
+  Product:        Features · How it works · Pricing strategies · FAQ
+  Documentation:  Docs home · Installation guide · User guide
+  Company:        Codinative · Open the app · Support
+  Legal:          Privacy policy · Terms of service
+
+Credentials strip:   Codinative  ·  Certified BigCommerce Partner
+
+Bottom bar:
+  © 2026 Codinative. All rights reserved.
+  Built for BigCommerce · Powered by UPS UAE Domestic rates
+
+================================================================================
+END OF CONTENT
+================================================================================
