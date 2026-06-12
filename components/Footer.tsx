@@ -25,9 +25,9 @@ const COLS = [
   {
     title: "Company",
     links: [
-      { href: LINKS.vendor, label: "Codinative", external: true },
+      { href: "/contact", label: "Contact" },
+      { href: LINKS.vendor, label: "Codinative ↗", external: true },
       { href: LINKS.app, label: "Open the app", external: true },
-      { href: LINKS.support, label: "Support" },
     ],
   },
   {

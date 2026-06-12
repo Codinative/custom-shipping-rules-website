@@ -8,7 +8,7 @@ const LINKS_NAV = [
   { href: "/#how", label: "How it works" },
   { href: "/#pricing", label: "Pricing" },
   { href: "/docs", label: "Docs" },
-  { href: "/#faq", label: "FAQ" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Nav() {
@@ -29,7 +29,9 @@ export default function Nav() {
         </nav>
         <span className="nav-sp" />
         <div className="nav-cta">
-          <Link href="/docs" className="btn btn-ghost btn-sm">Documentation</Link>
+          <a href={LINKS.vendor} target="_blank" rel="noopener" className="nav-extlink">
+            {VENDOR} <Icon name="arrowR" size={14} />
+          </a>
           <a href={LINKS.marketplace} target="_blank" rel="noopener" className="btn btn-primary btn-sm">
             <Icon name="store" size={16} /> Get the app
           </a>
