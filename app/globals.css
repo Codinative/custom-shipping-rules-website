@@ -299,6 +299,13 @@ ul.checks { padding: 0; margin: 24px 0 0; }
 .foot-col h5 { font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-text-3); margin: 0 0 15px; }
 .foot-col a { display: block; font-size: 16px; color: var(--ink-text-2); padding: 6px 0; transition: color .15s; }
 .foot-col a:hover { color: var(--accent-soft); }
+.foot-cert { display: flex; align-items: center; justify-content: center; gap: 28px; padding: 30px 0; border-bottom: 1px solid var(--ink-line); flex-wrap: wrap; }
+.foot-cert-item { display: inline-flex; align-items: center; gap: 11px; transition: opacity .15s; }
+.foot-cert-item:hover { opacity: .85; }
+.foot-cert-name { font-size: 19px; font-weight: 700; color: #fff; letter-spacing: -.01em; }
+.foot-cert-cap { font-size: 13px; font-weight: 600; color: var(--ink-text-2); line-height: 1.25; }
+.foot-cert-div { width: 1px; height: 34px; background: var(--ink-line); }
+@media (max-width: 480px) { .foot-cert { gap: 18px; } .foot-cert-div { display: none; } }
 .foot-bot { display: flex; align-items: center; justify-content: space-between; padding-top: 26px; gap: 16px; flex-wrap: wrap; }
 .foot-bot span { font-size: 15px; color: var(--ink-text-3); }
 .foot-bot .made { display: inline-flex; align-items: center; gap: 6px; }
