@@ -1,6 +1,7 @@
 import Link from "next/link";
 import BrandMark from "@/components/BrandMark";
 import Icon from "@/components/Icon";
+import PartnerBadge from "@/components/PartnerBadge";
 import { APP_NAME, VENDOR, LINKS } from "@/lib/site";
 
 const COLS = [
@@ -42,6 +43,10 @@ export default function Footer() {
               <span className="brand-name"><b>{APP_NAME}</b><span>by {VENDOR}</span></span>
             </Link>
             <p>UPS weight-based shipping quotes for BigCommerce stores shipping UAE domestic — accurate, automatic, and priced in AED.</p>
+            <a href={LINKS.vendor} target="_blank" rel="noopener" style={{ display: "inline-block", marginTop: 18 }}
+              aria-label="Codinative — Certified BigCommerce Partner">
+              <PartnerBadge height={34} />
+            </a>
           </div>
           {COLS.map((c) => (
             <div key={c.title} className="foot-col">

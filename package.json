@@ -2,6 +2,8 @@
   "name": "shipping-app-spa",
   "version": "1.0.0",
   "private": true,
+  "license": "UNLICENSED",
+  "author": "Codinative",
   "description": "Marketing site for Custom Shipping Rules — a BigCommerce + UPS weight-based shipping quote builder by Codinative.",
   "scripts": {
     "dev": "next dev --turbopack",
