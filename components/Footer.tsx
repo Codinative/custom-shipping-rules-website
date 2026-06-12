@@ -30,6 +30,13 @@ const COLS = [
       { href: LINKS.support, label: "Support" },
     ],
   },
+  {
+    title: "Legal",
+    links: [
+      { href: "/privacy", label: "Privacy policy" },
+      { href: "/terms", label: "Terms of service" },
+    ],
+  },
 ];
 
 export default function Footer() {

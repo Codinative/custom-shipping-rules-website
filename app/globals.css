@@ -283,7 +283,7 @@ ul.checks { padding: 0; margin: 22px 0 0; }
 
 /* ---------- footer ---------- */
 .foot { background: var(--ink); color: var(--ink-text-2); padding: 56px 0 30px; }
-.foot-top { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 32px; padding-bottom: 36px; border-bottom: 1px solid var(--ink-line); }
+.foot-top { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr 1fr; gap: 32px; padding-bottom: 36px; border-bottom: 1px solid var(--ink-line); }
 .foot-brand .brand-name b { color: #fff; }
 .foot-brand p { font-size: 13.5px; color: var(--ink-text-3); margin: 16px 0 0; max-width: 30ch; line-height: 1.6; }
 .foot-col h5 { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-text-3); margin: 0 0 14px; }
