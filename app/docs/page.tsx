@@ -63,6 +63,25 @@ export default function DocsHome() {
             ))}
           </div>
 
+          <div className="sec-head" style={{ margin: "64px auto 32px", textAlign: "left", maxWidth: "none" }}>
+            <span className="eyebrow"><span className="dot" /> Legal &amp; policies</span>
+            <h2 className="h-sec" style={{ marginTop: 10, fontSize: 26 }}>Policies</h2>
+          </div>
+          <div className="dgrid">
+            <Link href="/docs/privacy-policy" className="dcard">
+              <div className="fic"><Icon name="shield" size={22} /></div>
+              <h3>Privacy policy</h3>
+              <p>What data the app accesses, stores and processes — and what it never touches (no orders, customers, products, or payments).</p>
+              <span className="more">Read the policy <Icon name="arrowR" /></span>
+            </Link>
+            <Link href="/docs/terms-of-service" className="dcard">
+              <div className="fic"><Icon name="doc" size={22} /></div>
+              <h3>Terms of service</h3>
+              <p>The terms for using the app — the service, merchant responsibilities, rate accuracy, trademarks, and liability.</p>
+              <span className="more">Read the terms <Icon name="arrowR" /></span>
+            </Link>
+          </div>
+
           <div className="cta" style={{ marginTop: 64 }}>
             <div className="cta-in">
               <h2 style={{ fontSize: 28 }}>Still have a question?</h2>

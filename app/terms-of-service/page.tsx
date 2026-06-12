@@ -86,7 +86,7 @@ export default function TermsPage() {
             <h2>7. Termination</h2>
             <p>
               You may stop using the App at any time by uninstalling it from your BigCommerce control panel, which removes the
-              carrier&apos;s options from checkout and deletes your stored data (see the <Link href="/privacy">Privacy Policy</Link>).
+              carrier&apos;s options from checkout and deletes your stored data (see the <Link href="/privacy-policy">Privacy Policy</Link>).
             </p>
           </section>
 
