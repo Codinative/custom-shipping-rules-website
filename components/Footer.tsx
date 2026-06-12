@@ -2,7 +2,6 @@ import Link from "next/link";
 import BrandMark from "@/components/BrandMark";
 import Icon from "@/components/Icon";
 import PartnerBadge from "@/components/PartnerBadge";
-import UpsMark from "@/components/UpsMark";
 import { APP_NAME, VENDOR, LINKS } from "@/lib/site";
 
 const COLS = [
@@ -76,11 +75,6 @@ export default function Footer() {
           <a className="foot-cert-item" href={LINKS.vendor} target="_blank" rel="noopener" aria-label="Certified BigCommerce Partner">
             <PartnerBadge height={42} />
           </a>
-          <span className="foot-cert-div" />
-          <span className="foot-cert-item" aria-label="UPS UAE Domestic rates">
-            <UpsMark height={44} />
-            <span className="foot-cert-cap">UPS UAE<br />Domestic rates</span>
-          </span>
         </div>
         <div className="foot-bot">
           <span>© 2026 {VENDOR}. All rights reserved.</span>

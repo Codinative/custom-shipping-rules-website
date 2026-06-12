@@ -3,6 +3,8 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Icon from "@/components/Icon";
 import CheckoutPreview from "@/components/CheckoutPreview";
+import UpsMark from "@/components/UpsMark";
+import BigCommerceMark from "@/components/BigCommerceMark";
 import { LINKS } from "@/lib/site";
 
 const FEATURES = [
@@ -62,6 +64,22 @@ export default function Home() {
             </div>
           </div>
           <CheckoutPreview />
+        </div>
+      </section>
+
+      {/* ---------- Integrates with ---------- */}
+      <section className="integ">
+        <div className="wrap integ-in">
+          <span className="integ-label">Integrates with</span>
+          <div className="integ-logos">
+            <span className="integ-item"><BigCommerceMark height={26} /></span>
+            <span className="integ-x"><Icon name="plus" size={15} /></span>
+            <span className="integ-item"><UpsMark height={46} /></span>
+          </div>
+          <p className="integ-sub">
+            Custom Shipping Rules installs as a <b>native BigCommerce shipping provider</b> and quotes
+            your real <b>UPS UAE&nbsp;Domestic</b> contract rates live at checkout.
+          </p>
         </div>
       </section>
 
