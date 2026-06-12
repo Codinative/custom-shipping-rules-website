@@ -77,8 +77,8 @@ export default function InstallationGuide() {
               <h2>Permissions</h2>
               <p>On install the app requests only two OAuth scopes — nothing related to orders, customers, or payments:</p>
               <ul>
-                <li><strong>Fulfillment Methods</strong> — to add and manage its UPS options inside your shipping zones.</li>
-                <li><strong>Information and Settings (read-only)</strong> — to read your store&apos;s weight/dimension units and default currency, so rates convert and price correctly.</li>
+                <li><strong>Fulfillment Methods</strong> — to connect the carrier and add its UPS options inside your shipping zones.</li>
+                <li><strong>Information and Settings</strong> — to read your store&apos;s weight/dimension units and default currency, so rates convert and price correctly.</li>
               </ul>
               <div className="note">The app never reads or writes orders, customers, products, or payment data.</div>
             </section>

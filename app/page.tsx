@@ -26,7 +26,7 @@ const FAQS = [
   { q: "How is the shipping price calculated?", a: "From the cart's chargeable weight — the greater of actual weight and dimensional weight (L×W×H ÷ 5000). The app finds the matching weight bracket in your UPS rate table, then applies your chosen pricing strategy." },
   { q: "Can I control the final price shoppers pay?", a: "Yes. Choose a flat percentage markup on the UPS base rate, or layer a fuel surcharge and UAE VAT. You set the percentages; shoppers only ever see the final AED amount." },
   { q: "What does it cost to install?", a: "Install the app from the BigCommerce App Marketplace. New installs start switched off, so nothing changes at checkout until you connect the carrier and turn it on." },
-  { q: "What permissions does the app need?", a: "Only two: Fulfillment Methods (to add its UPS options to your shipping zones) and Information and Settings, read-only (to read your store's units and currency). Nothing else." },
+  { q: "What permissions does the app need?", a: "Only two: Fulfillment Methods (to connect the carrier and add its UPS options to your shipping zones) and Information and Settings (to read your store's units and currency). Nothing about orders, customers, or payments." },
   { q: "How do I verify it's working?", a: "Use the in-app checkout preview and the Test a shipment tool, then place a test order to a UAE address. You should see the two UPS options priced in AED." },
 ];
 
