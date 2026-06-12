@@ -7,6 +7,19 @@ at checkout — calculated from cart weight, priced in AED, as two delivery tier
 Built with **Next.js 15** (App Router) + **React 19** + TypeScript. No database, no API —
 a static, fast marketing SPA intended for `custom-shipping-rules.codinative.com`.
 
+## Live site & links
+
+🌐 **Live site:** https://custom-shipping-rules.codinative.com/
+
+| Page | Link |
+|------|------|
+| Home (marketing) | https://custom-shipping-rules.codinative.com/ |
+| Documentation home | https://custom-shipping-rules.codinative.com/docs |
+| Installation guide | https://custom-shipping-rules.codinative.com/docs/installation |
+| User guide | https://custom-shipping-rules.codinative.com/docs/user-guide |
+| The app (embedded) | https://shipping.codinative.com/ |
+| Codinative | https://codinative.com/ |
+
 ## Structure
 
 ```
