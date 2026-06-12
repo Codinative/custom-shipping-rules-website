@@ -5,14 +5,15 @@ These power the "Integrates with" band on the landing page.
 
 Add exactly these two files (filenames matter):
 
-  public/logos/bigcommerce.svg     ← official BigCommerce logo
-  public/logos/ups.svg             ← official UPS logo
+  public/logos/bigcommerce.png     ← official BigCommerce logo
+  public/logos/ups.png             ← official UPS logo
 
 Notes:
-  - SVG is preferred (sharp at any size, smallest file). PNG also works — if you use
-    PNG, rename the file to bigcommerce.png / ups.png AND update the src in:
+  - Components currently reference .png. If you instead have SVG versions, name them
+    bigcommerce.svg / ups.svg AND change the extension in the src of:
         components/BigCommerceMark.tsx
         components/UpsMark.tsx
+  - Use a TRANSPARENT background (the band is light, so a white box would show).
   - Use the full-colour logo on a transparent background. The band has a light
     background, so dark/colour logos read best.
   - The components size by HEIGHT (width auto), so any aspect ratio is fine.

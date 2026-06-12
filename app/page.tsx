@@ -72,9 +72,9 @@ export default function Home() {
         <div className="wrap integ-in">
           <span className="integ-label">Integrates with</span>
           <div className="integ-logos">
-            <span className="integ-item"><BigCommerceMark height={26} /></span>
-            <span className="integ-x"><Icon name="plus" size={15} /></span>
-            <span className="integ-item"><UpsMark height={46} /></span>
+            <span className="integ-item"><BigCommerceMark height={28} /></span>
+            <span className="integ-x"><Icon name="plus" size={16} /></span>
+            <span className="integ-item"><UpsMark height={54} /></span>
           </div>
           <p className="integ-sub">
             Custom Shipping Rules installs as a <b>native BigCommerce shipping provider</b> and quotes
