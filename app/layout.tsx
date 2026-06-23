@@ -6,6 +6,7 @@ const inter = Inter({ variable: "--font-sans", subsets: ["latin"], display: "swa
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://custom-shipping-rules.codinative.com"),
+  verification: { google: "9EvtD3EyhC1oYSoE1N-fjHHJw4fJo39DXm2W-lfKsHU" },
   title: {
     default: "Custom Shipping Rules - UPS weight-based quotes for BigCommerce",
     template: "%s - Custom Shipping Rules",
