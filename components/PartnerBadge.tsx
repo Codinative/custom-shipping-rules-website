@@ -1,5 +1,5 @@
 /**
- * "Certified BigCommerce Partner" badge — Codinative's partner mark.
+ * "Certified BigCommerce Partner" badge - Codinative's partner mark.
  * Self-contained (inline styles). The shield + C is crisp SVG; the wordmark
  * inherits the page font. Colour follows the site accent (--accent-soft).
  */

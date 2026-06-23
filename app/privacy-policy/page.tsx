@@ -34,10 +34,10 @@ export default function PrivacyPage() {
 
           <section>
             <h2>Information we access</h2>
-            <p>When a merchant installs the App via BigCommerce OAuth, we request only two permissions — both needed to calculate and display shipping rates:</p>
+            <p>When a merchant installs the App via BigCommerce OAuth, we request only two permissions - both needed to calculate and display shipping rates:</p>
             <ul>
-              <li><strong>Fulfillment Methods</strong> — shipping zones and carrier configuration, to connect the carrier so its UPS options appear at checkout.</li>
-              <li><strong>Information and Settings</strong> — the store&apos;s weight/dimension units and default currency, to convert and price rates correctly.</li>
+              <li><strong>Fulfillment Methods</strong> - shipping zones and carrier configuration, to connect the carrier so its UPS options appear at checkout.</li>
+              <li><strong>Information and Settings</strong> - the store&apos;s weight/dimension units and default currency, to convert and price rates correctly.</li>
             </ul>
             <p>The App does <strong>not</strong> access orders, customers, products, or payment data.</p>
           </section>
@@ -65,9 +65,9 @@ export default function PrivacyPage() {
           <section>
             <h2>Third-party processors</h2>
             <ul>
-              <li><strong>BigCommerce</strong> — the platform the App integrates with.</li>
-              <li><strong>Google Firebase / Firestore</strong> — stores the data described above.</li>
-              <li><strong>Vercel</strong> — hosts the App.</li>
+              <li><strong>BigCommerce</strong> - the platform the App integrates with.</li>
+              <li><strong>Google Firebase / Firestore</strong> - stores the data described above.</li>
+              <li><strong>Vercel</strong> - hosts the App.</li>
             </ul>
             <p>We do not sell or share your data with advertisers, and we do not use it for any purpose other than operating the App.</p>
           </section>

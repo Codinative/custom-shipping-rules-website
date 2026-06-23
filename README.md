@@ -1,10 +1,10 @@
-# Custom Shipping Rules — marketing website
+# Custom Shipping Rules - marketing website
 
 The marketing + documentation site for **Custom Shipping Rules**, a BigCommerce app by
 [Codinative](https://codinative.com) that quotes real **UPS UAE Domestic** shipping rates
-at checkout — calculated from cart weight, priced in AED, as two delivery tiers.
+at checkout - calculated from cart weight, priced in AED, as two delivery tiers.
 
-Built with **Next.js 15** (App Router) + **React 19** + TypeScript. No database, no API —
+Built with **Next.js 15** (App Router) + **React 19** + TypeScript. No database, no API -
 a static, fast marketing SPA intended for `custom-shipping-rules.codinative.com`.
 
 ## Live site & links

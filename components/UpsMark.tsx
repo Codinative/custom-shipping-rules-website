@@ -1,8 +1,8 @@
 /**
  * UPS logo for the "Integrates with" band.
  *
- * Drop the official UPS asset in:  public/logos/ups.png   (or .svg — update src)
- * "UPS" and the shield are trademarks of United Parcel Service — shown here only to
+ * Drop the official UPS asset in:  public/logos/ups.png   (or .svg - update src)
+ * "UPS" and the shield are trademarks of United Parcel Service - shown here only to
  * indicate the carrier whose rates the app quotes (nominative use).
  */
 export default function UpsMark({ height = 48 }: { height?: number }) {

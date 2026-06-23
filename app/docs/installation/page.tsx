@@ -24,11 +24,11 @@ const REQUIREMENTS = [
 
 const STEPS = [
   { t: "Install the app", d: "Add Custom Shipping Rules from the BigCommerce App Marketplace, or from Apps → My Apps. New installs start switched off, so nothing changes at checkout until you turn it on." },
-  { t: "Grant the requested permissions", d: "BigCommerce shows the two permissions the app needs and asks you to confirm. Approve them to finish — you're returned to the app dashboard." },
+  { t: "Grant the requested permissions", d: "BigCommerce shows the two permissions the app needs and asks you to confirm. Approve them to finish - you're returned to the app dashboard." },
   { t: "Connect the carrier", d: "On the Home tab, click “Connect carrier”. This attaches the UPS options to your shipping zone(s) so they can be quoted at checkout. The setup checklist ticks green on success." },
   { t: "Review rates & pricing", d: "Open Configure. Pick a pricing strategy (a flat markup %, or fuel surcharge + VAT), browse the AED rate table, and press Test rates on a sample shipment to confirm the numbers." },
   { t: "Turn on shipping", d: "Flip the master switch on Home. The status badge turns green once the carrier is connected and the service is on." },
-  { t: "Verify at checkout", d: "Add a product and check out to a UAE address. You should see two options — Close of Business and Midday — priced in AED." },
+  { t: "Verify at checkout", d: "Add a product and check out to a UAE address. You should see two options - Close of Business and Midday - priced in AED." },
 ];
 
 export default function InstallationGuide() {
@@ -75,10 +75,10 @@ export default function InstallationGuide() {
 
             <section id="permissions">
               <h2>Permissions</h2>
-              <p>On install the app requests only two OAuth scopes — nothing related to orders, customers, or payments:</p>
+              <p>On install the app requests only two OAuth scopes - nothing related to orders, customers, or payments:</p>
               <ul>
-                <li><strong>Fulfillment Methods</strong> — to connect the carrier and add its UPS options inside your shipping zones.</li>
-                <li><strong>Information and Settings</strong> — to read your store&apos;s weight/dimension units and default currency, so rates convert and price correctly.</li>
+                <li><strong>Fulfillment Methods</strong> - to connect the carrier and add its UPS options inside your shipping zones.</li>
+                <li><strong>Information and Settings</strong> - to read your store&apos;s weight/dimension units and default currency, so rates convert and price correctly.</li>
               </ul>
               <div className="note">The app never reads or writes orders, customers, products, or payment data.</div>
             </section>
@@ -105,11 +105,11 @@ export default function InstallationGuide() {
               <h3>Checkout shows only &ldquo;Ship by weight&rdquo;</h3>
               <p>The carrier isn&apos;t attached to the zone yet. On Home, use <strong>Re-sync carrier</strong>, and make sure your UAE shipping zone has the UPS method enabled.</p>
               <h3>No rates appear for a non-UAE address</h3>
-              <p>This is expected — the app quotes UPS <strong>UAE Domestic</strong> rates only and returns nothing for other destinations.</p>
+              <p>This is expected - the app quotes UPS <strong>UAE Domestic</strong> rates only and returns nothing for other destinations.</p>
               <h3>Rates look wrong</h3>
               <p>Check your product weights/dimensions and your pricing strategy on Configure. The charged rate uses the greater of actual vs dimensional weight, priced by your chosen strategy.</p>
               <div className="note" style={{ marginTop: 16 }}>
-                Still stuck? Email <a href={LINKS.support}>{LINKS.email}</a> — we reply within one business day.
+                Still stuck? Email <a href={LINKS.support}>{LINKS.email}</a> - we reply within one business day.
               </div>
             </section>
           </article>

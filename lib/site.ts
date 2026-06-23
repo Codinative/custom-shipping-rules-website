@@ -3,7 +3,7 @@ export const APP_NAME = "Custom Shipping Rules";
 export const APP_TAGLINE = "UPS weight-based shipping quotes for BigCommerce.";
 export const VENDOR = "Codinative";
 
-/** Links — update these once the listing + app URLs are final. */
+/** Links - update these once the listing + app URLs are final. */
 export const LINKS = {
   // BigCommerce marketplace listing (placeholder until published).
   marketplace: "https://www.bigcommerce.com/apps/",

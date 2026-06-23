@@ -1,4 +1,4 @@
-LOGOS — drop the official brand assets here
+LOGOS - drop the official brand assets here
 ============================================
 
 These power the "Integrates with" band on the landing page.
@@ -17,7 +17,7 @@ Notes:
   - Use the full-colour logo on a transparent background. The band has a light
     background, so dark/colour logos read best.
   - The components size by HEIGHT (width auto), so any aspect ratio is fine.
-  - Once the files are here, run `npm run dev` — the band shows the real logos with
+  - Once the files are here, run `npm run dev` - the band shows the real logos with
     no code change needed.
 
 Trademark: "UPS"/the shield and "BigCommerce" are trademarks of their owners and are

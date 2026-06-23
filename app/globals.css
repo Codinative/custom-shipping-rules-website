@@ -1,5 +1,5 @@
 /* ============================================================
-   Custom Shipping Rules — marketing site design system
+   Custom Shipping Rules - marketing site design system
    Brand-matched to the app (amber accent, Inter sans-serif, neutral scale).
    ============================================================ */
 
@@ -410,7 +410,7 @@ a.app-card:hover .app-go { color: var(--accent-soft); }
 .dstep-b b { font-size: 17px; font-weight: 650; display: block; }
 .dstep-b p { font-size: 16px; color: var(--text-2); margin: 3px 0 0; line-height: 1.6; }
 
-/* dark-mode courtesy (OS) — keep the page readable, accents intact */
+/* dark-mode courtesy (OS) - keep the page readable, accents intact */
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #0c0e13; --bg-2: #111419; --surface: #14171d; --surface-2: #1a1e25;

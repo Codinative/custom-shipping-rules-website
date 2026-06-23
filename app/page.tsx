@@ -8,9 +8,9 @@ import BigCommerceMark from "@/components/BigCommerceMark";
 import { LINKS } from "@/lib/site";
 
 const FEATURES = [
-  { ic: "weight", t: "Weight-based accuracy", d: "Every quote is calculated from the cart's chargeable weight — the greater of actual and dimensional weight — exactly how UPS bills you. No flat fees that over- or under-charge." },
+  { ic: "weight", t: "Weight-based accuracy", d: "Every quote is calculated from the cart's chargeable weight - the greater of actual and dimensional weight - exactly how UPS bills you. No flat fees that over- or under-charge." },
   { ic: "truck", t: "Two UPS delivery tiers", d: "Shoppers choose between Delivery by Close of Business and priority Delivery by Midday, each priced independently for the parcel." },
-  { ic: "calc", t: "Flexible pricing", d: "Apply a simple percentage markup on the UPS base rate, or layer a fuel surcharge and UAE VAT. Set it once — every quote follows." },
+  { ic: "calc", t: "Flexible pricing", d: "Apply a simple percentage markup on the UPS base rate, or layer a fuel surcharge and UAE VAT. Set it once - every quote follows." },
   { ic: "dirham", t: "Always in AED", d: "Rates are quoted in UAE dirhams, matched to your store currency. Shoppers see a clean final price with no surcharge breakdown." },
   { ic: "zap", t: "Live at checkout", d: "A native BigCommerce Shipping Provider. When a shopper reaches the shipping step, the app returns rates in real time." },
   { ic: "rocket", t: "Minutes to set up", d: "Connect the carrier to your UAE zone, review the rate table, flip the master switch on. A built-in preview shows exactly what shoppers will see." },
@@ -25,7 +25,7 @@ const FLOW = [
 
 const FAQS = [
   { q: "Which carriers and destinations are supported?", a: "Currently UPS UAE Domestic only. Shoppers with a delivery address outside the United Arab Emirates won't see these options at checkout. More carriers and destinations are planned." },
-  { q: "How is the shipping price calculated?", a: "From the cart's chargeable weight — the greater of actual weight and dimensional weight (L×W×H ÷ 5000). The app finds the matching weight bracket in your UPS rate table, then applies your chosen pricing strategy." },
+  { q: "How is the shipping price calculated?", a: "From the cart's chargeable weight - the greater of actual weight and dimensional weight (L×W×H ÷ 5000). The app finds the matching weight bracket in your UPS rate table, then applies your chosen pricing strategy." },
   { q: "Can I control the final price shoppers pay?", a: "Yes. Choose a flat percentage markup on the UPS base rate, or layer a fuel surcharge and UAE VAT. You set the percentages; shoppers only ever see the final AED amount." },
   { q: "What does it cost to install?", a: "Install the app from the BigCommerce App Marketplace. New installs start switched off, so nothing changes at checkout until you connect the carrier and turn it on." },
   { q: "What permissions does the app need?", a: "Only two: Fulfillment Methods (to connect the carrier and add its UPS options to your shipping zones) and Information and Settings (to read your store's units and currency). Nothing about orders, customers, or payments." },
@@ -45,7 +45,7 @@ export default function Home() {
             <h1>UPS weight-based shipping quotes, <span className="hl">built for BigCommerce</span>.</h1>
             <p className="lead">
               Custom Shipping Rules turns your UPS UAE&nbsp;Domestic contract rates into accurate,
-              weight-based quotes at checkout — two delivery speeds, priced in AED, live in minutes.
+              weight-based quotes at checkout - two delivery speeds, priced in AED, live in minutes.
             </p>
             <div className="hero-cta">
               <a href={LINKS.marketplace} target="_blank" rel="noopener" className="btn btn-primary btn-lg">
@@ -142,7 +142,7 @@ export default function Home() {
                 </div>
                 <span className="tier-chip">Everyday</span>
               </div>
-              <p className="tier-desc">The dependable everyday option — same-day delivery by close of business for orders placed before the daily cut-off.</p>
+              <p className="tier-desc">The dependable everyday option - same-day delivery by close of business for orders placed before the daily cut-off.</p>
               <div className="tier-foot">
                 <span className="promise"><Icon name="clock" /> Delivered by ~6:00 PM</span>
               </div>
@@ -156,7 +156,7 @@ export default function Home() {
                 </div>
                 <span className="tier-chip">Priority</span>
               </div>
-              <p className="tier-desc">Priority delivery guaranteed by 12:00 PM — for urgent shipments that need to arrive first thing.</p>
+              <p className="tier-desc">Priority delivery guaranteed by 12:00 PM - for urgent shipments that need to arrive first thing.</p>
               <div className="tier-foot">
                 <span className="promise"><Icon name="clock" /> Delivered by 12:00 PM</span>
               </div>
@@ -172,7 +172,7 @@ export default function Home() {
             <span className="eyebrow"><span className="dot" /> Pricing strategies</span>
             <h2 className="h-sec" style={{ marginTop: 12 }}>Price every rate, your way.</h2>
             <p className="lead" style={{ marginTop: 14 }}>
-              The UPS base rates are fixed and accurate. You decide how they become the price a shopper pays — set it once on the Configure screen and every quote follows.
+              The UPS base rates are fixed and accurate. You decide how they become the price a shopper pays - set it once on the Configure screen and every quote follows.
             </p>
             <ul className="checks">
               <li><span className="ck"><Icon name="check" /></span><div><b>Transparent to you, clean for shoppers.</b><br /><span>You see the formula; shoppers see only the final AED amount.</span></div></li>
@@ -183,7 +183,7 @@ export default function Home() {
             <div className="pcard">
               <h4>UPS rate + markup <span className="tag">Default</span></h4>
               <p>Add a single flat percentage on top of the UPS rate. Simple and predictable.</p>
-              <div className="formula">base × (1 + <span className="v">markup%</span>) — e.g. 100 → <span className="v">150</span></div>
+              <div className="formula">base × (1 + <span className="v">markup%</span>) - e.g. 100 → <span className="v">150</span></div>
             </div>
             <div className="pcard">
               <h4>UPS rate + fuel surcharge + VAT</h4>
@@ -200,13 +200,13 @@ export default function Home() {
           <div className="sec-head">
             <span className="eyebrow"><span className="dot" /> Documentation</span>
             <h2 className="h-sec" style={{ marginTop: 12 }}>Guides for every step.</h2>
-            <p className="lead">Everything prospective and current merchants need — reviewable before you install.</p>
+            <p className="lead">Everything prospective and current merchants need - reviewable before you install.</p>
           </div>
           <div className="dgrid">
             <Link href="/docs/installation" className="dcard">
               <div className="fic"><Icon name="box" size={22} /></div>
               <h3>Installation guide</h3>
-              <p>Requirements, a six-step setup from install to live at checkout, and troubleshooting — everything you need before and during installation.</p>
+              <p>Requirements, a six-step setup from install to live at checkout, and troubleshooting - everything you need before and during installation.</p>
               <span className="more">Read the guide <Icon name="arrowR" /></span>
             </Link>
             <Link href="/docs/user-guide" className="dcard">
@@ -243,7 +243,7 @@ export default function Home() {
           <div className="cta">
             <div className="cta-in">
               <h2>Ready to quote real UPS rates at checkout?</h2>
-              <p>Install Custom Shipping Rules, connect your UAE zone, and go live in minutes — with accurate, weight-based pricing your margins will thank you for.</p>
+              <p>Install Custom Shipping Rules, connect your UAE zone, and go live in minutes - with accurate, weight-based pricing your margins will thank you for.</p>
               <div className="cta-btns">
                 <a href={LINKS.marketplace} target="_blank" rel="noopener" className="btn btn-primary btn-lg">
                   <Icon name="store" size={18} /> Get it on BigCommerce
