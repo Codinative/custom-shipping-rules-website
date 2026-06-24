@@ -5,7 +5,7 @@ import Icon from "@/components/Icon";
 import CheckoutPreview from "@/components/CheckoutPreview";
 import UpsMark from "@/components/UpsMark";
 import BigCommerceMark from "@/components/BigCommerceMark";
-import { LINKS } from "@/lib/site";
+import { APP_NAME, VENDOR, SITE_URL, LINKS } from "@/lib/site";
 
 const FEATURES = [
   { ic: "weight", t: "Weight-based accuracy", d: "Every quote is calculated from the cart's chargeable weight - the greater of actual and dimensional weight - exactly how UPS bills you. No flat fees that over- or under-charge." },
@@ -33,8 +33,21 @@ const FAQS = [
 ];
 
 export default function Home() {
+  // Tells Google the preferred site name (otherwise it falls back to the bare domain).
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: APP_NAME,
+    url: `${SITE_URL}/`,
+    publisher: { "@type": "Organization", name: VENDOR, url: LINKS.vendor },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Nav />
 
       {/* ---------- Hero ---------- */}

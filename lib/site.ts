@@ -2,6 +2,8 @@
 export const APP_NAME = "Custom Shipping Rules";
 export const APP_TAGLINE = "UPS weight-based shipping quotes for BigCommerce.";
 export const VENDOR = "Codinative";
+/** Canonical public origin (no trailing slash) - used for metadata + structured data. */
+export const SITE_URL = "https://custom-shipping-rules.codinative.com";
 
 /** Links - update these once the listing + app URLs are final. */
 export const LINKS = {
