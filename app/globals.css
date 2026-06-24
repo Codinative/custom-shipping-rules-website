@@ -51,6 +51,12 @@
   --shadow-lg: 0 2px 4px rgba(20,24,33,.04), 0 30px 70px -26px rgba(20,24,33,.30);
   --shadow-accent: 0 18px 50px -20px rgba(224,144,14,.5);
 
+  /* card hover fill - deep amber so white text passes WCAG AA (the lighter
+     accent would fail body contrast). See card-hover block at end of file. */
+  --card-hover-from:   #9C5E08;
+  --card-hover-to:     #7E4D04;
+  --card-hover-shadow: 0 18px 50px -20px rgba(126,77,4,.55);
+
   --nav-h: 70px;
 }
 
@@ -426,4 +432,85 @@ a.app-card:hover .app-go { color: var(--accent-soft); }
   }
   .nav { background: rgba(12,14,19,.8); }
   .btn-ghost { background: var(--surface); }
+}
+
+/* ============================================================
+   Card hover - brand-colour fill (all content cards)
+   On :hover / :focus-within a card fills with the brand gradient
+   and every inner element flips to white so it stays readable
+   (white text verified WCAG AA on the fill). This block is
+   identical across all three sites; only the --card-hover-*
+   tokens in :root differ per site.
+   ============================================================ */
+.fcard, .dcard, .fstep, .tier, .pcard {
+  transition: transform .15s ease, box-shadow .2s ease, border-color .2s ease,
+              background .22s ease, color .22s ease;
+}
+
+.fcard:hover, .fcard:focus-within,
+.dcard:hover, .dcard:focus-within,
+.fstep:hover, .fstep:focus-within,
+.tier:hover, .tier:focus-within,
+.pcard:hover, .pcard:focus-within {
+  background: linear-gradient(155deg, var(--card-hover-from), var(--card-hover-to));
+  border-color: transparent;
+  box-shadow: var(--card-hover-shadow);
+  transform: translateY(-3px);
+}
+
+/* titles -> white */
+.fcard:hover h3, .fcard:focus-within h3,
+.dcard:hover h3, .dcard:focus-within h3,
+.fstep:hover h3, .fstep:focus-within h3,
+.pcard:hover h4, .pcard:focus-within h4,
+.tier:hover .tier-top h3, .tier:focus-within .tier-top h3 { color: #fff; }
+
+/* body copy -> soft white (still passes AA on every fill) */
+.fcard:hover p, .fcard:focus-within p,
+.dcard:hover p, .dcard:focus-within p,
+.fstep:hover p, .fstep:focus-within p,
+.pcard:hover p, .pcard:focus-within p,
+.tier:hover .tier-desc, .tier:focus-within .tier-desc,
+.tier:hover .tier-svc, .tier:focus-within .tier-svc { color: rgba(255,255,255,.9); }
+
+/* icon tiles + number badges -> frosted white */
+.fcard:hover .fic, .fcard:focus-within .fic,
+.dcard:hover .fic, .dcard:focus-within .fic,
+.fstep:hover .fstep-n, .fstep:focus-within .fstep-n,
+.tier:hover .tier-ic, .tier:focus-within .tier-ic {
+  background: rgba(255,255,255,.18); color: #fff;
+}
+
+/* chips / tags -> frosted white */
+.tier:hover .tier-chip, .tier:focus-within .tier-chip,
+.pcard:hover .tag, .pcard:focus-within .tag {
+  background: rgba(255,255,255,.2); color: #fff;
+}
+
+/* docs "Read the guide" link + arrow -> white (keep the nudge on focus too) */
+.dcard:hover .more, .dcard:focus-within .more { color: #fff; }
+.dcard:focus-within .more svg { transform: translateX(3px); }
+
+/* pricing formula box -> frosted */
+.pcard:hover .formula, .pcard:focus-within .formula {
+  background: rgba(255,255,255,.14); border-color: rgba(255,255,255,.3); color: #fff;
+}
+.pcard:hover .formula .v, .pcard:focus-within .formula .v { color: #fff; }
+
+/* tier accent bar + footer divider -> white-on-fill */
+.tier:hover::before, .tier:focus-within::before { background: rgba(255,255,255,.4); }
+.tier:hover .tier-foot, .tier:focus-within .tier-foot { border-top-color: rgba(255,255,255,.25); }
+.tier:hover .promise, .tier:focus-within .promise { color: rgba(255,255,255,.92); }
+.tier:hover .promise svg, .tier:focus-within .promise svg { color: #fff; }
+
+/* keyboard focus: visible ring against the filled card */
+.dcard:focus-visible { outline: 2px solid #fff; outline-offset: -4px; }
+
+/* reduced motion: keep the colour change, drop the lift */
+@media (prefers-reduced-motion: reduce) {
+  .fcard:hover, .fcard:focus-within,
+  .dcard:hover, .dcard:focus-within,
+  .fstep:hover, .fstep:focus-within,
+  .tier:hover, .tier:focus-within,
+  .pcard:hover, .pcard:focus-within { transform: none; }
 }
