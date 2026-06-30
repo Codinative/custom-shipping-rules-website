@@ -5,8 +5,10 @@ import Icon from "@/components/Icon";
 import { LINKS } from "@/lib/site";
 
 export const metadata = {
-  title: "Documentation",
-  description: "All guides, policies and support for Custom Shipping Rules in one place.",
+  title: { absolute: "Custom Shipping Rules Docs - Setup Guide | BigCommerce" },
+  description:
+    "Learn how to install and configure Custom Shipping Rules for BigCommerce. Step-by-step setup, UPS UAE rates, weight tiers and more.",
+  alternates: { canonical: "/docs" },
 };
 
 const RESOURCES = [

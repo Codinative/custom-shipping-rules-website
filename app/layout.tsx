@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   verification: { google: "mE51E51lm1Lwm73kSnZ_DXll15Ab0zp2aWaCnir5q2s" },
   title: {
-    default: "Custom Shipping Rules - UPS weight-based quotes for BigCommerce",
+    default: "Custom Shipping Rules - UPS UAE Shipping App for BigCommerce",
     template: "%s - Custom Shipping Rules",
   },
   description:
-    "A BigCommerce app by Codinative that quotes real UPS UAE Domestic shipping rates at checkout - calculated automatically from cart weight, in AED, as two delivery tiers.",
+    "BigCommerce app that quotes real UPS UAE shipping rates at checkout - auto-calculated from cart weight in AED, across two delivery tiers. Try it free.",
   keywords: [
     "BigCommerce shipping app", "UPS shipping rates", "weight-based shipping",
     "UAE shipping", "shipping quote builder", "Codinative", "AED shipping rates",
