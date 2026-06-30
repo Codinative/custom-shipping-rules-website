@@ -7,6 +7,10 @@ import UpsMark from "@/components/UpsMark";
 import BigCommerceMark from "@/components/BigCommerceMark";
 import { APP_NAME, VENDOR, SITE_URL, LINKS } from "@/lib/site";
 
+export const metadata = {
+  alternates: { canonical: "/" },
+};
+
 const FEATURES = [
   { ic: "weight", t: "Weight-based accuracy", d: "Every quote is calculated from the cart's chargeable weight - the greater of actual and dimensional weight - exactly how UPS bills you. No flat fees that over- or under-charge." },
   { ic: "truck", t: "Two UPS delivery tiers", d: "Shoppers choose between Delivery by Close of Business and priority Delivery by Midday, each priced independently for the parcel." },
